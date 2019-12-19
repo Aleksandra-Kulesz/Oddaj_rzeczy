@@ -1,0 +1,11 @@
+@import "fonts";
+@import "reset";
+@import "mixins";
+
+body{
+  font-family: $font-base;
+  box-sizing: border-box;
+}
+
+@import "header";
+@import "steps";
